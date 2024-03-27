@@ -1,0 +1,31 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "UnityAds"
+  }
+  digests {
+    sha256: "rb\241\221^\343\240` 0c\037\266x\277oh\255fv\315XF\020_\315S\300\272\332J="
+  }
+}
+library {
+  digests {
+    sha256: "\350\212z\316\240\325\256rL\252\370\001\tGQ\3267$]a?SM\030\301\351u\255\306\276F%"
+  }
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 0
+  dependency_index: 1
+}
+repositories {
+  maven_repo {
+    url: "https://dl.google.com/dl/android/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://repo.maven.apache.org/maven2/"
+  }
+}
